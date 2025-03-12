@@ -94,6 +94,15 @@
     - Commit the successful part and reset the bad part, then iterate
   - Create a new conversation to get rid of bad context built in the current conversation
 
+### Tackling Large Projects with Divide and Conquer
+- We usually run out of context window when working on large projects
+- Create a markdown file with a checklist to manage complex tasks:
+  - Talk to the agent and ask it to make a very detailed plan with items in the checklist
+  - For each item, add notes about relevant files, classes, and the plan for that specific task
+  - Work on each item in a new conversation
+  - For each task, the agent will check the current item on the checklist and the relevant context
+- Note: We'll discuss a more automated approach to this with the divide-and-conquer MCP server later
+
 ### Practical Tips
 - Create a folder for agents to write scripts to understand context
   - For example, scripts to analyze existing database structure
