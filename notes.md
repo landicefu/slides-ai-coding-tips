@@ -1,5 +1,9 @@
 # AI Coding Tips and Tools Presentation Notes
 
+## Repository Information
+- Slides repository: git@github.com:landicefu/slides-ai-coding-tips.git
+- Include this repository link on the topic title page
+
 ## Important Announcement
 - Please raise your hand and ask questions **during** the sharing, not after the sharing.
 
@@ -133,6 +137,7 @@
 - Resources:
   - Medium article (English): https://medium.com/@landicefu/what-exactly-is-model-context-protocol-mcp-809c22b09139
   - Medium article (Chinese): https://medium.com/@landicefu/model-context-protocol-mcp-%E6%88%91%E7%9A%84%E4%BD%BF%E7%94%A8%E7%B6%93%E9%A9%97-1-c9d8147de937
+  - Example implementation: `result_mcp_server_prompt.md` (only mention the filename in slides, do not include content)
 
 ## Demonstration 3: ADB MCP Server
 - Showcasing Android Debug Bridge integration
