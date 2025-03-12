@@ -114,6 +114,14 @@
     - Doing things you don't know how to do
     - PR review or issue tracking using gh command
 
+## Creating Effective Prompts with LLM
+- Detailed guide on crafting effective prompts for AI agents
+- Examples of simple and sophisticated prompts
+- Iterative approach to prompt refinement
+- Strategies for handling specific requirements
+- Balancing prompt length and effectiveness
+- Reference: `materials/how_to_create_effective_prompts.md`
+
 ## Demonstration 1: Minesweeper on Web
 - Live coding demonstration
 - Key points to highlight:
