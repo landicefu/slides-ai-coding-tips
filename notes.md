@@ -131,6 +131,16 @@
 - Balancing prompt length and effectiveness
 - Reference: `materials/how_to_create_effective_prompts.md`
 
+### The Importance of Detailed Prompts and Tools
+- Creating detailed prompts and tools has a powerful compound effect:
+  - Each improvement in prompt quality leads to better results
+  - Better results lead to more effective tools
+  - More effective tools enable more complex tasks
+  - Complex tasks solved well create reusable patterns
+  - These patterns further improve future prompts
+- Investment in prompt engineering pays dividends over time
+- Well-crafted prompts become valuable assets in your workflow
+
 ## Demonstration 1: Minesweeper on Web
 - Live coding demonstration
 - Key points to highlight:
