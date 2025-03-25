@@ -33,16 +33,25 @@ Presentation by Landice Fu @PicCollage
 ---
 src: ./sections/01-introduction.md
 ---
+---
 src: ./sections/02-ai-tools-overview.md
+---
 ---
 src: ./sections/03-adoption-and-mobile.md
 ---
+---
 src: ./sections/04-ai-models.md
+---
 ---
 src: ./sections/05-tips-for-ai-agents.md
 ---
+---
 src: ./sections/06-demonstrations.md
+---
 ---
 src: ./sections/07-mcp-servers.md
 ---
+---
 src: ./sections/08-conclusion.md
+---
+---

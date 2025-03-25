@@ -61,19 +61,3 @@
 <!--
 This slide provides a comprehensive overview of various AI coding tools, their platforms, and key features. The table format makes it easy to compare different options.
 -->
-
----
-
-# Rate Limit Update
-
-<div class="text-xl">
-  <div class="my-8">
-    <div class="text-green-500 font-bold">Good news!</div>
-    <p class="mt-4">The rate limit issues previously experienced with some AI coding tools have been resolved.</p>
-    <p class="mt-4">Users can now use these tools without concerns about hitting usage limits.</p>
-  </div>
-</div>
-
-<!--
-This slide addresses a practical concern about rate limits that might have been an issue for users in the past, providing reassurance that these limitations have been resolved.
--->
