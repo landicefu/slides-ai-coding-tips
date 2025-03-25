@@ -138,35 +138,170 @@ This slide provides additional practical tips for working with AI agents, includ
 
 ---
 
-# Creating Effective Prompts with LLM
+# Creating Effective Prompts
 
-<div class="grid grid-cols-2 gap-4">
-<div>
-
-## Prompt strategies:
-- Be specific about requirements
-- Provide context and examples
-- Specify format and style
-- Use iterative refinement
-- Balance detail and brevity
-
-</div>
-<div>
-
-## The compound effect:
-- Each improvement in prompt quality leads to better results
-- Better results lead to more effective tools
-- More effective tools enable more complex tasks
-- Complex tasks solved well create reusable patterns
-- These patterns further improve future prompts
-
-</div>
-</div>
-
-<div class="mt-4 text-center text-blue-500">
-  <p>Reference: materials/how_to_create_effective_prompts.md</p>
+<div class="text-xl">
+  <p class="mb-4">Craft detailed, experience-based prompts for best results</p>
+  <div class="grid grid-cols-2 gap-4">
+    <div>
+      <h3 class="text-yellow-400 font-bold">Key Principles:</h3>
+      <ul>
+        <li>Be specific about requirements</li>
+        <li>Provide context and examples</li>
+        <li>Anticipate potential issues</li>
+        <li>Use iterative refinement</li>
+        <li>Balance detail and brevity</li>
+      </ul>
+    </div>
+    <div>
+      <h3 class="text-green-400 font-bold">The Compound Effect:</h3>
+      <ul>
+        <li>Better prompts → better results</li>
+        <li>Better results → more effective tools</li>
+        <li>Effective tools → complex tasks solved</li>
+        <li>Solved tasks → reusable patterns</li>
+        <li>Patterns → improved future prompts</li>
+      </ul>
+    </div>
+  </div>
 </div>
 
 <!--
-This slide focuses on creating effective prompts for LLMs, highlighting both strategies and the compound effect of improving prompt quality over time.
+This slide introduces the concept of creating effective prompts, highlighting key principles and the compound effect of improving prompt quality over time.
+-->
+
+---
+
+# Prompt Iteration Process
+
+<div class="text-xl">
+  <div class="grid grid-cols-2 gap-4">
+    <div>
+      <h3 class="text-blue-400 font-bold">Initial Prompt:</h3>
+      <ul>
+        <li>Start with clear requirements</li>
+        <li>Include known constraints</li>
+        <li>Specify expected output format</li>
+        <li>Provide relevant context</li>
+      </ul>
+    </div>
+    <div>
+      <h3 class="text-purple-400 font-bold">Refinement:</h3>
+      <ul>
+        <li>Review the generated output</li>
+        <li>Identify missing elements</li>
+        <li>Add specific instructions</li>
+        <li>Request modifications in the same conversation</li>
+        <li>Directly tell the agent what to do for things it doesn't handle well</li>
+      </ul>
+    </div>
+  </div>
+  <div class="mt-4 p-2 bg-gray-800 rounded text-sm">
+    <p class="text-yellow-300 font-mono">Example refinement - Java to Kotlin conversion check</p>
+    <p class="font-mono">"Please help to add a careful check on 'lateinit var's. If we don't need to use it, then we should refactor."</p>
+  </div>
+</div>
+
+<!--
+This slide explains the process of prompt iteration, showing how to start with a basic prompt and then refine it based on the results.
+-->
+
+---
+
+# Simple vs. Sophisticated Prompts
+
+<div class="text-xl">
+  <div class="grid grid-cols-2 gap-4">
+    <div>
+      <h3 class="text-yellow-400 font-bold">Simple Prompts:</h3>
+      <ul>
+        <li>Focus on a single task</li>
+        <li>Provide basic requirements</li>
+        <li>Easier to iterate and refine</li>
+        <li>Good for straightforward tasks</li>
+        <li>Require less context window space</li>
+      </ul>
+    </div>
+    <div>
+      <h3 class="text-red-400 font-bold">Sophisticated Prompts:</h3>
+      <ul>
+        <li>Address complex requirements</li>
+        <li>Anticipate potential pitfalls</li>
+        <li>Include detailed instructions</li>
+        <li>Specify edge cases to handle</li>
+        <li>Provide comprehensive guidance</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!--
+This slide compares simple and sophisticated prompts, highlighting when each approach is most appropriate.
+-->
+
+---
+
+# Prompt Engineering Best Practices
+
+<div class="text-xl">
+  <div class="grid grid-cols-2 gap-4">
+    <div>
+      <h3 class="text-green-400 font-bold">Creating Prompts:</h3>
+      <ul>
+        <li>Draw from past experiences</li>
+        <li>Anticipate common mistakes</li>
+        <li>Include specific examples</li>
+        <li>Structure information logically</li>
+        <li>Use clear, precise language</li>
+      </ul>
+    </div>
+    <div>
+      <h3 class="text-blue-400 font-bold">Managing Prompts:</h3>
+      <ul>
+        <li>Review prompts after creation</li>
+        <li>Test with different scenarios</li>
+        <li>Update based on new insights</li>
+        <li>Consider token usage and context</li>
+        <li>Organize in a prompt book/library</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!--
+This slide covers best practices for prompt engineering, including creation and management of prompts.
+-->
+
+---
+
+# Real-World Example: MCP Server Prompt
+
+<div class="text-lg">
+  <p class="mb-2">A sophisticated prompt for creating MCP servers includes:</p>
+  <div class="grid grid-cols-2 gap-4">
+    <div>
+      <ul>
+        <li>Detailed technical requirements</li>
+        <li>Configuration specifics (package.json, scripts, bin settings)</li>
+        <li>Publishing configuration options</li>
+        <li>README.md structure guidance</li>
+      </ul>
+    </div>
+    <div>
+      <ul>
+        <li>Build and test instructions</li>
+        <li>Client configuration guidance</li>
+        <li>Anticipated edge cases</li>
+        <li>User preference clarification</li>
+      </ul>
+    </div>
+  </div>
+  <div class="mt-4 p-2 bg-gray-800 rounded text-sm">
+    <p class="text-green-300 font-mono">Result: "When you ask the agent to follow the instructions in it, they usually make no mistakes."</p>
+  </div>
+  <p class="mt-4 text-yellow-400">Tradeoff: Comprehensive prompts use more tokens and context window space</p>
+</div>
+
+<!--
+This slide provides a real-world example of a sophisticated prompt for creating MCP servers, highlighting both the benefits and tradeoffs.
 -->
