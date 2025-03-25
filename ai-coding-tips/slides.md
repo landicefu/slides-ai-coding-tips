@@ -53,29 +53,34 @@ This slide emphasizes the important announcement about asking questions during t
 -->
 
 ---
-layout: image-right
-image: https://source.unsplash.com/collection/94734566/1920x1080
----
 
 # Introduction
 
-<div class="text-xl">
-  <div class="my-2">Landice Fu from PicCollage</div>
-  <ul>
-    <li>Android developer with over 10 years of experience</li>
-    <li>Almost doing everything using AI now:
-      <ul class="ml-5 mt-2">
-        <li>Coding</li>
-        <li>Creating slides</li>
-        <li>Chatting with OpenAI using voice chat</li>
-        <li>Learning, Planning, Writing</li>
-        <li>Blog posts</li>
-        <li>Ideation</li>
-        <li>RPG game development</li>
-        <li>And more...</li>
-      </ul>
-    </li>
-  </ul>
+<div class="grid grid-cols-2 gap-4 text-xl">
+  <div>
+    <div class="my-2">Landice Fu from PicCollage</div>
+    <ul>
+      <li>Android developer with over 10 years of experience</li>
+      <li>Love cracking Android apps</li>
+      <li>Love VR games</li>
+    </ul>
+  </div>
+  <div>
+    <div class="my-2">Almost doing everything using AI now:</div>
+    <ul>
+      <li>Coding</li>
+      <li>Creating slides</li>
+      <li>Chatting with OpenAI using voice chat
+        <ul class="ml-5 mt-2">
+          <li>Learning, Planning, Writing</li>
+        </ul>
+      </li>
+      <li>Blog posts</li>
+      <li>Ideation</li>
+      <li>Play RPG games with AI</li>
+      <li>And more...</li>
+    </ul>
+  </div>
 </div>
 
 <!--
