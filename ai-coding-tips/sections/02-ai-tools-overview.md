@@ -1,6 +1,6 @@
 # AI Coding Tools Overview
 
-<div class="overflow-auto h-90">
+<div class="overflow-auto h-110">
   <table class="border-collapse w-full">
     <thead>
       <tr>
@@ -49,15 +49,8 @@
   </table>
 </div>
 
-<div class="mt-4">
-  <h3>Discussion points:</h3>
-  <ul>
-    <li>Strengths and weaknesses of each tool</li>
-    <li>Use cases where each tool excels</li>
-    <li>Integration with existing workflows</li>
-  </ul>
-</div>
-
 <!--
-This slide provides a comprehensive overview of various AI coding tools, their platforms, and key features. The table format makes it easy to compare different options.
+- Strengths and weaknesses of each tool
+- Use cases where each tool excels
+- Integration with existing workflows
 -->
