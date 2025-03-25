@@ -24,7 +24,14 @@ This section slide introduces the demonstration portion of the presentation.
 </div>
 
 <!--
-This slide introduces the first demonstration, a web-based Minesweeper game, outlining the key aspects that will be highlighted during the demo.
+1. Create doc
+  - Web minesweeper game
+  - Separate js, html, css files
+  - Support Light/Dark theme
+  - Providing 3 difficulties
+2. Start to implement
+3. Check the colors
+4. Refinements
 -->
 
 ---
@@ -41,5 +48,9 @@ This slide introduces the first demonstration, a web-based Minesweeper game, out
 </div>
 
 <!--
-This slide introduces the second demonstration, focusing on a more technical task of porting between different shader frameworks.
+$kraftshade porting prompt$
+Read and follow the instructions
+
+Port the following GPUImageFilter for me. Add the setup to KraftShadeEffectViewTestWindow after you port it.
+GPUImageGlassSphereFilter
 -->

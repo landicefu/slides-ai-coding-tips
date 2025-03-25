@@ -1,24 +1,10 @@
 # Model Context Protocol (MCP) Servers
-
-<div class="grid grid-cols-2 gap-4">
-<div>
-
 ## What are MCP servers?
 - Extension mechanism for AI assistants
+- Custom functionality beyond standard AI capabilities
 - Local servers that provide additional capabilities
 - Bridge between AI models and local tools/services
 
-</div>
-<div>
-
-## Benefits:
-- Extended capabilities for AI assistants
-- Integration with local tools and services
-- Custom functionality beyond standard AI capabilities
-- Secure access to local resources
-
-</div>
-</div>
 
 <div class="mt-4">
   <h3>Resources:</h3>
@@ -50,7 +36,9 @@ This slide introduces the concept of Model Context Protocol (MCP) servers, expla
 </div>
 
 <!--
-This slide introduces the demonstration of the Android Debug Bridge MCP server, highlighting its use cases for mobile development.
+- List all the cardinalblue packages
+- Take screenshot and copy to clipboard
+- Launch PicCollage beta
 -->
 
 ---
@@ -73,6 +61,12 @@ This slide introduces the demonstration of the Android Debug Bridge MCP server, 
 2. Demo PR review
    https://github.com/cardinalblue/pic-collage-android/pull/13691
 3. Demo Idea Evaluation (Claude Desktop)
+
+   Get the startup idea evaluation prompt from the prompt book. Follow the instructions in it.
+   And then, evaluate the following idea for me:
+   A video creating app that analyze music beats and do the transition of user photos/videos on the beats.
+   ---
+   Now read another prompt for technical evaluation and then follow the instructions in it.
 -->
 
 ---
