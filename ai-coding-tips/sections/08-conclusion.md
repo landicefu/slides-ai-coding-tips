@@ -8,6 +8,7 @@
 ## Documentation First
 - Write documents before code
 - Make context clear for AI agents
+- Split the documents into smaller pieces
 - Iterate on prompts and documentation
 
 ## Handling Challenges
@@ -21,12 +22,13 @@
 ## Effective Prompts
 - Be specific about requirements
 - Provide context and examples
+- Make the agent write prompt for you
 - Balance detail and brevity
 
 ## Beyond Code
-- Use AI for documentation, diagrams
+- Use AI for documentation, diagrams, prompting
 - Extend capabilities with MCP servers
-- Now focus more on architecture, design and future extensibility
+- Now focus more on architecture, design and future extensibility instead of tedious implementaion
 
 </div>
 </div>
