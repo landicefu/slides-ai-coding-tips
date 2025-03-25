@@ -40,9 +40,6 @@ src: ./sections/02-ai-tools-overview.md
 src: ./sections/03-adoption-and-mobile.md
 ---
 ---
-src: ./sections/04-ai-models.md
----
----
 src: ./sections/05-tips-for-ai-agents.md
 ---
 ---
