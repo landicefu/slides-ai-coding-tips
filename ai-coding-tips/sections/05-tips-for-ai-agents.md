@@ -13,17 +13,17 @@ This section slide introduces the tips for working with AI agents, which is a ma
 # Documentation First Approach
 
 <div class="text-xl">
-  <h3>Write documents before writing code</h3>
+  <h3><span class="text-yellow-400 font-bold">Write documents before writing code</span></h3>
   <ul>
     <li>This is a very effective way to work with agentic coding tools
       <ul class="ml-5 mt-2">
-        <li>Make the context of the project extra clear for the agent for every new chat session</li>
-        <li>Split context into different topics with correct size and focus, so you can tag (mention) the needed context for the task</li>
-        <li>Let the agent know what architectures, tools and dependencies to use</li>
+        <li>Make the <span class="text-green-400 font-bold">context of the project</span> extra clear for the agent for every new chat session</li>
+        <li><span class="text-green-400 font-bold">Split context</span> into different topics with correct size and focus, so you can tag (mention) the needed context for the task</li>
+        <li>Let the agent know what <span class="text-blue-400 font-bold">architectures, tools and dependencies</span> to use</li>
       </ul>
     </li>
     <li>You can describe the project and ask the coding tool to add the documents which makes this extremely easy</li>
-    <li>Iterate on your prompt and document to make it work better and better</li>
+    <li><span class="text-purple-400 font-bold">Iterate on your prompt and document</span> to make it work better and better</li>
   </ul>
 </div>
 
@@ -74,7 +74,9 @@ This slide highlights how software engineering expertise remains valuable even w
 </div>
 
 <!--
-This slide provides practical strategies for handling challenges when AI tools don't immediately produce the desired results, emphasizing iteration and problem decomposition.
+New conversation:
+
+Sometimes some failure can cause bad context to build up. In that case, the task tend to fail again and again.
 -->
 
 ---
@@ -85,12 +87,12 @@ This slide provides practical strategies for handling challenges when AI tools d
   <p class="mb-4">We usually run out of context window when working on large projects</p>
   <h3>Create a markdown file with a checklist to manage complex tasks:</h3>
   <ul>
-    <li>Talk to the agent and ask it to make a very detailed plan with items in the checklist</li>
-    <li>For each item, add notes about relevant files, classes, and the plan for that specific task</li>
-    <li>Work on each item in a new conversation</li>
-    <li>For each task, the agent will check the current item on the checklist and the relevant context</li>
+    <li>Talk to the agent and ask it to make a <span class="text-yellow-500">very detailed</span> plan with items in the checklist</li>
+    <li>For each item, add notes about <span class="text-yellow-500">relevant files, classes, and the plan</span> for that specific task</li>
+    <li>Work on each item <span class="text-yellow-500">in a new conversation</span></li>
+    <li>For each task, the agent will <span class="text-red-500">only</span> check the current item on the checklist and the relevant context</li>
   </ul>
-  <p class="mt-4 text-blue-500">Note: We'll discuss a more automated approach to this with the divide-and-conquer MCP server later</p>
+  <p class="mt-4 text-blue-500">Note: We'll discuss a more automated approach to this with the divide-and-conquer MCP server later.</p>
 </div>
 
 <!--
