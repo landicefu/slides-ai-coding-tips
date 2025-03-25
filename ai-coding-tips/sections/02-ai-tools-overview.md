@@ -12,13 +12,13 @@
     <tbody>
       <tr>
         <td class="border border-gray-400 px-4 py-2">Cursor</td>
-        <td class="border border-gray-400 px-4 py-2">Desktop</td>
-        <td class="border border-gray-400 px-4 py-2">Built-in AI assistance, chat interface</td>
+        <td class="border border-gray-400 px-4 py-2">Based on VSC</td>
+        <td class="border border-gray-400 px-4 py-2">Built-in AI assistance, chat interface, mcp</td>
       </tr>
       <tr>
         <td class="border border-gray-400 px-4 py-2">WindSurf</td>
-        <td class="border border-gray-400 px-4 py-2">Desktop</td>
-        <td class="border border-gray-400 px-4 py-2">Specialized for coding workflows</td>
+        <td class="border border-gray-400 px-4 py-2">Based on VSC</td>
+        <td class="border border-gray-400 px-4 py-2">Built-in AI assistance, chat interface, mcp</td>
       </tr>
       <tr>
         <td class="border border-gray-400 px-4 py-2">Claude + JetBrains Proxy MCP</td>
