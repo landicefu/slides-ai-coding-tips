@@ -300,6 +300,9 @@ This slide covers best practices for prompt engineering, including creation and 
     <p class="text-green-300 font-mono">Result: "When you ask the agent to follow the instructions in it, they usually make no mistakes."</p>
   </div>
   <p class="mt-4 text-yellow-400">Tradeoff: Comprehensive prompts use more tokens and context window space</p>
+  <div class="mt-4 text-center text-blue-500">
+    <p>Read: materials/how_to_create_effective_prompts.md</p>
+  </div>
 </div>
 
 <!--
