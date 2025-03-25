@@ -69,7 +69,10 @@ This slide introduces the demonstration of the Android Debug Bridge MCP server, 
 </div>
 
 <!--
-This slide introduces the demonstration of the Prompt Book Server, explaining the concept and benefits of centralized prompt management.
+1. Activate private prompt book
+2. Demo PR review
+   https://github.com/cardinalblue/pic-collage-android/pull/13691
+3. Demo Idea Evaluation (Claude Desktop)
 -->
 
 ---

@@ -4,9 +4,9 @@
   <table class="border-collapse w-full">
     <thead>
       <tr>
-        <th class="border border-gray-400 px-4 py-2 bg-gray-100">Tool</th>
-        <th class="border border-gray-400 px-4 py-2 bg-gray-100">Platform</th>
-        <th class="border border-gray-400 px-4 py-2 bg-gray-100">Key Features</th>
+        <th class="border border-gray-400 px-4 py-2 bg-gray-100 text-gray-800">Tool</th>
+        <th class="border border-gray-400 px-4 py-2 bg-gray-100 text-gray-800">Platform</th>
+        <th class="border border-gray-400 px-4 py-2 bg-gray-100 text-gray-800">Key Features</th>
       </tr>
     </thead>
     <tbody>
