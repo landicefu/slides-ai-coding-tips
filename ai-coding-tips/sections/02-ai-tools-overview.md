@@ -48,6 +48,13 @@
     </tbody>
   </table>
 </div>
+
+---
+
+# Claude Code
+
+<Youtube id="dRaHQRxJAEs?start=146" width="100%" height="100%"/>
+
 ---
 
 # AIDER
@@ -58,9 +65,3 @@
     Your browser doesn't support video tag.
   </video>
 </div>
-
-<!--
-- Strengths and weaknesses of each tool
-- Use cases where each tool excels
-- Integration with existing workflows
--->
