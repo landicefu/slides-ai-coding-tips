@@ -48,6 +48,16 @@
     </tbody>
   </table>
 </div>
+---
+
+# AIDER
+
+<div class="flex justify-center">
+  <video controls width="65%">
+    <source src="https://aider.chat/assets/shell-cmds-small.mp4" type="video/mp4">
+    Your browser doesn't support video tag.
+  </video>
+</div>
 
 <!--
 - Strengths and weaknesses of each tool
