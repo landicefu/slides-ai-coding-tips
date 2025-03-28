@@ -16,8 +16,8 @@ This section slide introduces the demonstration portion of the presentation.
   <h3>Live coding demonstration</h3>
   <h4>Key points to highlight:</h4>
   <ul>
+    <li>Document first approach</li>
     <li>How to structure the prompt</li>
-    <li>Handling complex game logic</li>
     <li>Debugging AI-generated code</li>
     <li>Iterative improvement process</li>
   </ul>
@@ -42,8 +42,8 @@ This section slide introduces the demonstration portion of the presentation.
   <h3>Technical demonstration of porting process</h3>
   <ul>
     <li>Challenges in the conversion process</li>
-    <li>How AI assists with understanding complex APIs</li>
-    <li>Performance considerations and optimizations</li>
+    <li>How to instruct AI to use APIs and architectures it doesn't know?</li>
+    <li>How to make AI work better with legacy projects?</li>
   </ul>
 </div>
 
