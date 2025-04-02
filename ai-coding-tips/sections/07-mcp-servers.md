@@ -61,10 +61,10 @@ This slide introduces the concept of Model Context Protocol (MCP) servers, expla
 2. Demo PR review
    https://github.com/cardinalblue/pic-collage-android/pull/13691
 3. Demo Idea Evaluation (Claude Desktop)
-
    Get the startup idea evaluation prompt from the prompt book. Follow the instructions in it.
    And then, evaluate the following idea for me:
    A video creating app that analyze music beats and do the transition of user photos/videos on the beats.
+   請用繁體中文產生結果
    ---
    Now read another prompt for technical evaluation and then follow the instructions in it.
 -->
