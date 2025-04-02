@@ -52,5 +52,5 @@ $kraftshade porting prompt$
 Read and follow the instructions
 
 Port the following GPUImageFilter for me. Add the setup to KraftShadeEffectViewTestWindow after you port it.
-GPUImageGlassSphereFilter
+GPUImageZoomBlurFilter
 -->
